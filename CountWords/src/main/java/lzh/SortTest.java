@@ -2,9 +2,7 @@ package lzh;
 import java.util.*;
 import static java.util.Comparator.*;
 import static java.util.stream.Collectors.*;
-import java.util.stream.*;
 
-import com.lzh.CountWords.SortTest2.Customer;
 
 public class SortTest {
 
@@ -214,12 +212,12 @@ List<SortTest.Customer> input = new ArrayList<>();
 		input.forEach(e->System.out.println(e));
 		System.out.println("\n  Sorted with pure comparators :\n");
 		 new SortTest().getSortedCustomers(input).forEach(e->System.out.println(e));
-		 /*
+		 
 		   System.out.println("\n  Sorted with comparators and collectors :\n");
 		 new SortTest().getSortedCustomers_2(input).forEach(e->System.out.println(e));
 		 System.out.println("\n  Sorted with comparators and collectors and updated all customer's membershipLevel :\n");
 		 new SortTest().getSortedCustomers_UpdatedLevel(input).forEach(e->System.out.println(e));
-		 */
+		 
 		 System.out.println("\n  Helper:\n");
 		 new SortTest().getSortedCustomers_simple(input).forEach(e->System.out.println(e));
 	}
