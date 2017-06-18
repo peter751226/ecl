@@ -1,0 +1,15 @@
+ Read the text file, separated by whitespace.Dont consider the punctuations.
+ *  Compute the number of times each word appears, and print,
+ *  sorted by frequency.
+ *
+ *  % java8 Example
+ *  the: 13527
+ *  of: 6374
+ *  and: 5857
+ *  a: 4457
+ *  to: 4388
+ *  in: 3773
+ *  that: 2666
+ *  his: 2404
+ *  I: 1742
+ *  with: 1615
