@@ -1,7 +1,5 @@
 package lzh;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,9 +52,5 @@ public class TwoTest {
 		Assert.assertEquals(expected,  new SortTest().getSortedCustomers_UpdatedLevel(input));
 	}
 	
-	@Test
-	public void test2() {
-		Assert.assertEquals(expected,  new SortTest().getSortedCustomers_UpdatedLevel(input));
-	}
-
+	
 }
